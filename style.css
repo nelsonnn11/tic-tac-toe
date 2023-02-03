@@ -12,8 +12,23 @@
     text-align: center;
 }
 #cellContainer{
+    color: white;
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 225px;
     margin: auto;
+}
+  body {
+  background: linear-gradient(-45deg, #620cca, #01268e, #660020, #1D2671);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  }
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
 }
